@@ -1,0 +1,57 @@
+/* genaral settings */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+/* utility class */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+/* /utlility class */
+/* /general settings */
+.container {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  background-color: red;
+}
+.bg-header {
+  width: 100%;
+  height: 20vh;
+  background-color: yellow;
+}
+.nav-bar {
+  width: 100%;
+  height: 5vh;
+  background-color: pink;
+}
+.left-bar {
+  width: 20%;
+  height: 20%;
+  background-color: green;
+}
+.main-box {
+  width: 60%;
+  height: 100%;
+  background-color: blue;
+}
+.right-bar {
+  width: 20%;
+  height: 30%;
+  background-color: orange;
+}
+footer {
+  width: 100%;
+  height: 15vh;
+  background-color: grey;
+  position: relative;
+}
