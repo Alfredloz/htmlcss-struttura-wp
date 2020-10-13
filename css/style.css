@@ -22,17 +22,19 @@
   width: 80%;
   height: 100vh;
   margin: auto;
-  background-color: red;
+  background-image: url(../img/wood.jpg);
+  background-size: cover;
 }
 .bg-header {
   width: 100%;
   height: 20vh;
-  background-color: yellow;
+  background-image: url(../img/forest.jpeg);
+  background-size: cover;
 }
 .nav-bar {
   width: 100%;
   height: 5vh;
-  background-color: pink;
+  background-color: #504741;
 }
 .left-bar {
   width: 20%;
@@ -41,7 +43,7 @@
 }
 .main-box {
   width: 60%;
-  height: 100%;
+  height: 70vh;
   background-color: blue;
 }
 .right-bar {
@@ -54,4 +56,7 @@ footer {
   height: 15vh;
   background-color: grey;
   position: relative;
+}
+.left-bar, .main-box, .right-bar, footer {
+  border-radius: 8px;
 }
